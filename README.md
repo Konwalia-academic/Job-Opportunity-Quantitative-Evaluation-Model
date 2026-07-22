@@ -79,6 +79,7 @@
 $$ Score = \sum (W_i \times S_i) $$
 
 展开为：
+
 $$ Score = 0.15 \times S_A + 0.30 \times S_B + 0.25 \times S_C + 0.20 \times S_D + 0.10 \times S_E $$
 
 其中，**各维度子得分计算公式**（采用加权平均，权重相等子项均为1/N，但**惩罚项为连乘系数**）：
